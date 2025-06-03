@@ -1,7 +1,9 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
-    std::cout << "POLIBAN JUARAAAAA" << std::endl;
+    // Inisialisasi array string untuk 5 nama
+    string nama[5];
     return 0;
 }
