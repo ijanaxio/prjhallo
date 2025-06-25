@@ -45,6 +45,15 @@ void hapusPesanPertama() {
     cout << "Pesan \"" << hapus->isi << "\" telah dihapus.\n";
     delete hapus;
 }
+void hapusSemuaPesan() {
+    while (head != NULL) {
+        Pesan* hapus = head;
+        head = head->next;
+        delete hapus;
+    }
+    cout << "Semua pesan telah dihapus.\n";
+}
+
 
 
 
